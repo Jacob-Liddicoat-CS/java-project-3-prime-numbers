@@ -1,3 +1,4 @@
+//Displays the first 1000 prime numbers
 import java.io.*;
 import java.util.*;
 public class primeNumbers
