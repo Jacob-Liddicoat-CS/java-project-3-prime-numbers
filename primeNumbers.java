@@ -13,4 +13,12 @@ public class primeNumbers
   {
    for ( int j = 2 ; j <= Math.sqrt(num) ; j++ ) // Calculates if it is a prime number
    {
+    if ( num%j == 0 )
+    {
+     status = 0;
+     break;
+    }
+   }
+   if ( status != 0 )
+   {
     
