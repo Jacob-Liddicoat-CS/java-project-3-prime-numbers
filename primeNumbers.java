@@ -21,4 +21,11 @@ public class primeNumbers
    }
    if ( status != 0 )
    {
-    
+    System.out.println(num);
+    i++;
+   }
+   status = 1;
+   num++;
+  }
+ }
+}
